@@ -44,7 +44,7 @@ class DetailViewController: UIViewController {
         
     
         let imageID : String = self.photoObject.imageID! as String
-        let urlstring = "https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&photo_id=\(imageID)&format=json&nojsoncallback=1&api_key=28602178605addc1a7730e3c90733b22&tags=cat"
+        let urlstring = "https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&photo_id=\(imageID)&format=json&nojsoncallback=1&api_key=28602178605addc1a7730e3c90733b22&tags=z4"
         
         let url = URL(string: urlstring)
     

@@ -15,6 +15,7 @@
 		73F38ACF1F006E90000FDA03 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F38ACE1F006E90000FDA03 /* CustomCollectionViewCell.swift */; };
 		73F38AD11F007171000FDA03 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F38AD01F007171000FDA03 /* DetailViewController.swift */; };
 		73F38AD31F0083F1000FDA03 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F38AD21F0083F1000FDA03 /* PhotoModel.swift */; };
+		73F38AD51F01607E000FDA03 /* URLDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F38AD41F01607E000FDA03 /* URLDataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		73F38ACE1F006E90000FDA03 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		73F38AD01F007171000FDA03 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		73F38AD21F0083F1000FDA03 /* PhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		73F38AD41F01607E000FDA03 /* URLDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLDataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				73F38ABC1F00679F000FDA03 /* ViewController.swift */,
 				73F38AD01F007171000FDA03 /* DetailViewController.swift */,
 				73F38AD21F0083F1000FDA03 /* PhotoModel.swift */,
+				73F38AD41F01607E000FDA03 /* URLDataHelper.swift */,
 				73F38ABE1F00679F000FDA03 /* Main.storyboard */,
 				73F38ACE1F006E90000FDA03 /* CustomCollectionViewCell.swift */,
 				73F38AC11F00679F000FDA03 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 				73F38ABD1F00679F000FDA03 /* ViewController.swift in Sources */,
 				73F38ACF1F006E90000FDA03 /* CustomCollectionViewCell.swift in Sources */,
 				73F38ABB1F00679F000FDA03 /* AppDelegate.swift in Sources */,
+				73F38AD51F01607E000FDA03 /* URLDataHelper.swift in Sources */,
 				73F38AD31F0083F1000FDA03 /* PhotoModel.swift in Sources */,
 				73F38AD11F007171000FDA03 /* DetailViewController.swift in Sources */,
 			);
