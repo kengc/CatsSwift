@@ -58,6 +58,10 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="uxa-rb-9ZZ"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="kuM-wH-rQb"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -69,6 +73,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="collectionView" destination="ryZ-rj-cUj" id="Y2O-kU-qAQ"/>
                         <segue destination="iAD-hj-2R2" kind="show" identifier="showDetail" id="4q1-Cm-yNM"/>
                     </connections>
                 </viewController>
