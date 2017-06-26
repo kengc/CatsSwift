@@ -14,28 +14,27 @@ class DetailViewController: UIViewController {
     @IBOutlet var detailImageView: UIImageView!
     @IBOutlet var detailTitleLabel: UILabel!
     @IBOutlet var detailViewsLabel: UILabel!
+    var photoObject = PhotoModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        configureView()
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func setPhotoItem(_ photoitem: PhotoModel){
+        self.photoObject = photoitem
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func configureView(){
+    
+        self.detailImageView.image = self.photoObject.image
+        self.detailTitleLabel.text = self.photoObject.title! as String
+        //self.detailImageView.image = self.photoObject.image
+        
     }
-    */
+    
 
     @IBAction func DoneAction(_ sender: UIButton) {
         

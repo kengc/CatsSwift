@@ -62,9 +62,9 @@
 			children = (
 				73F38ABA1F00679F000FDA03 /* AppDelegate.swift */,
 				73F38ABC1F00679F000FDA03 /* ViewController.swift */,
+				73F38AD01F007171000FDA03 /* DetailViewController.swift */,
 				73F38AD21F0083F1000FDA03 /* PhotoModel.swift */,
 				73F38ABE1F00679F000FDA03 /* Main.storyboard */,
-				73F38AD01F007171000FDA03 /* DetailViewController.swift */,
 				73F38ACE1F006E90000FDA03 /* CustomCollectionViewCell.swift */,
 				73F38AC11F00679F000FDA03 /* Assets.xcassets */,
 				73F38AC31F00679F000FDA03 /* LaunchScreen.storyboard */,
